@@ -89,6 +89,7 @@ export async function obtenerFranjasDisponibles(
     "17:30",
     "18:00",
     "18:30",
+    "19:00"
   ];
 
   const turnosDelDia = await obtenerTurnosPorFecha(fecha)
